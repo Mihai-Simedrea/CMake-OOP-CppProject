@@ -14,6 +14,15 @@
 # EXTERNAL cache entries
 ########################
 
+//Value Computed by CMake
+BCI_BINARY_DIR:STATIC=/home/mihai/Desktop/UPT/PAOO/CMake-OOP-CppProject/out/build
+
+//Value Computed by CMake
+BCI_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+BCI_SOURCE_DIR:STATIC=/home/mihai/Desktop/UPT/PAOO/CMake-OOP-CppProject
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/usr/bin/addr2line
 
@@ -148,7 +157,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Project
+CMAKE_PROJECT_NAME:STATIC=BCI
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib
