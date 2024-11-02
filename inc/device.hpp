@@ -12,7 +12,7 @@ class Device {
         // ~Device();
 
         // void start(); // start the device
-        // std::string getName() const; // get device name
+        std::string getName() const; // get device name
 
     private:
         std::string* name; // dynamic mem alloc

@@ -11,3 +11,11 @@ void BCI::addDevice(const Device& device) {
     devices.push_back(device);
     std::cout << "Device added" << std::endl;
 }
+
+// process all devices
+void BCI::process() {
+    std::cout << "Processing devices: " << std::endl;
+    for (const auto& device: devices) {
+        std::cout << " - " << device.getName() << std::endl;
+    }
+}

@@ -9,7 +9,7 @@ class BCI {
         BCI();
         // ~BCI();
         void addDevice(const Device& device);
-        // void process(); // todo
+        void process();
 
     private:
         std::vector<Device> devices;

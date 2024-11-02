@@ -18,3 +18,8 @@ Device::Device(Device&& other) noexcept {
     other.name = nullptr;
     std::cout << "Device moved: " << *this->name << std::endl;
 }
+
+// get device name
+std::string Device::getName() const {
+    return *name;
+}
