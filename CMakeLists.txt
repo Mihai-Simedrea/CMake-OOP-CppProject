@@ -19,3 +19,6 @@ add_executable(${PROJECT_NAME} ${myfiles})
 
 add_definitions(-DAPP_VERSION="1.0")    # define preprocessor macro for versioning
 
+set(APP_VERSION "1.0")
+
+configure_file(cfg/bci.hpp.in inc/bci.hpp)
