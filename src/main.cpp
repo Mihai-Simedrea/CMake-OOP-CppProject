@@ -12,7 +12,7 @@ int main() {
     Device device2("OpenBCI Ultracortex Mark IV");
 
     bci.addDevice(device1);
-    // bci.addDevice(std::move(device2));
+    bci.addDevice(std::move(device2));
 
     return 0;
 }

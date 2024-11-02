@@ -8,7 +8,7 @@ class Device {
     public:
         Device(const std::string& name); // ctor
         Device(const Device& other); // copy ctor
-        // Device(Device&& other) noexcept; // move ctor
+        Device(Device&& other) noexcept; // move ctor
         // ~Device();
 
         // void start(); // start the device
