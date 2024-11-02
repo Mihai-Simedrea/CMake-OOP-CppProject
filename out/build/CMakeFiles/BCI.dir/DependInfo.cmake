@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/mihai/Desktop/UPT/PAOO/CMake-OOP-CppProject/src/device.cpp" "CMakeFiles/BCI.dir/src/device.cpp.o" "gcc" "CMakeFiles/BCI.dir/src/device.cpp.o.d"
   "/home/mihai/Desktop/UPT/PAOO/CMake-OOP-CppProject/src/main.cpp" "CMakeFiles/BCI.dir/src/main.cpp.o" "gcc" "CMakeFiles/BCI.dir/src/main.cpp.o.d"
   )
 

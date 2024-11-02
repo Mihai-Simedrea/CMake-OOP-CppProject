@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/BCI.dir/src/main.cpp.o -o BCI 
+/usr/bin/c++ CMakeFiles/BCI.dir/src/main.cpp.o CMakeFiles/BCI.dir/src/device.cpp.o -o BCI 

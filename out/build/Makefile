@@ -129,6 +129,30 @@ BCI/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/BCI.dir/build.make CMakeFiles/BCI.dir/build
 .PHONY : BCI/fast
 
+src/device.o: src/device.cpp.o
+.PHONY : src/device.o
+
+# target to build an object file
+src/device.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BCI.dir/build.make CMakeFiles/BCI.dir/src/device.cpp.o
+.PHONY : src/device.cpp.o
+
+src/device.i: src/device.cpp.i
+.PHONY : src/device.i
+
+# target to preprocess a source file
+src/device.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BCI.dir/build.make CMakeFiles/BCI.dir/src/device.cpp.i
+.PHONY : src/device.cpp.i
+
+src/device.s: src/device.cpp.s
+.PHONY : src/device.s
+
+# target to generate assembly for a file
+src/device.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BCI.dir/build.make CMakeFiles/BCI.dir/src/device.cpp.s
+.PHONY : src/device.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BCI"
+	@echo "... src/device.o"
+	@echo "... src/device.i"
+	@echo "... src/device.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

@@ -10,7 +10,9 @@ set(CMAKE_CXX_EXTENSIONS OFF)	 # we request -std=c++14 in the compiler  flags in
 
 set(myfiles
     src/main.cpp
+    src/device.cpp
     inc/bci.hpp
+    inc/device.hpp
 )
 
 include_directories(inc)     # the path to the headers 
