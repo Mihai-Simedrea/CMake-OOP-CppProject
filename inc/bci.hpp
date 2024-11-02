@@ -1,15 +1,18 @@
 #ifndef BCI_HPP
 #define BCI_HPP
 
+#include <vector>
+#include "device.hpp"
+
 class BCI {
     public: 
         BCI();
-        ~BCI();
-        void addDevice(); // todo
-        void process(); // todo
+        // ~BCI();
+        void addDevice(const Device& device);
+        // void process(); // todo
 
     private:
-        // todo
+        std::vector<Device> devices;
 };
 
 #endif // BCI_HPP

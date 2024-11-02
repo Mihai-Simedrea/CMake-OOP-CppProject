@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "BCI"
   "BCI.pdb"
+  "CMakeFiles/BCI.dir/src/bci.cpp.o"
+  "CMakeFiles/BCI.dir/src/bci.cpp.o.d"
   "CMakeFiles/BCI.dir/src/device.cpp.o"
   "CMakeFiles/BCI.dir/src/device.cpp.o.d"
   "CMakeFiles/BCI.dir/src/main.cpp.o"
