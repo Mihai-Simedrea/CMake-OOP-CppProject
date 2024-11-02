@@ -7,7 +7,7 @@
 class BCI {
     public: 
         BCI();
-        // ~BCI();
+        ~BCI();
         void addDevice(const Device& device);
         void process();
 

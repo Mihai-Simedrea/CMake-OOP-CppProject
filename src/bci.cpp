@@ -6,6 +6,11 @@ BCI::BCI() {
     std::cout << "BCI instance created" << std::endl;
 }
 
+// destructor
+BCI::~BCI() {
+    std::cout << "BCI instance destroyed" << std::endl;
+}
+
 // add device
 void BCI::addDevice(const Device& device) {
     devices.push_back(device);

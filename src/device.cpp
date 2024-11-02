@@ -6,6 +6,14 @@ Device::Device(const std::string& name) {
     std::cout << "Device created: " << *this->name << std::endl; 
 }
 
+// destructor
+Device::~Device() {
+    if (name) {
+        std::cout << "Device destroyed: " << *name << std::endl;
+        delete name;
+    }
+}
+
 // copy ctr
 Device::Device(const Device& other) {
     this->name = new std::string(*other.name); // deep copy
