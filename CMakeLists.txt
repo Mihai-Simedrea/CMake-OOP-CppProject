@@ -8,5 +8,14 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)	# we request that CMake verifies the compile
 
 set(CMAKE_CXX_EXTENSIONS OFF)	 # we request -std=c++14 in the compiler  flags instead of –std=gnu++14
 
+set(myfiles
+    src/main.cpp
+    inc/bci.hpp
+)
 
-add_executable(${PROJECT_NAME} main.cpp)
+include_directories(inc)     # the path to the headers 
+
+add_executable(${PROJECT_NAME} ${myfiles})
+
+add_definitions(-DAPP_VERSION="1.0")    # define preprocessor macro for versioning
+

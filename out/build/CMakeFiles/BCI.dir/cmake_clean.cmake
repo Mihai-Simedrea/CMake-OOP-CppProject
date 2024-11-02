@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "BCI"
   "BCI.pdb"
-  "CMakeFiles/BCI.dir/main.cpp.o"
-  "CMakeFiles/BCI.dir/main.cpp.o.d"
+  "CMakeFiles/BCI.dir/src/main.cpp.o"
+  "CMakeFiles/BCI.dir/src/main.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -69,28 +69,28 @@ include CMakeFiles/BCI.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/BCI.dir/flags.make
 
-CMakeFiles/BCI.dir/main.cpp.o: CMakeFiles/BCI.dir/flags.make
-CMakeFiles/BCI.dir/main.cpp.o: /home/mihai/Desktop/UPT/PAOO/CMake-OOP-CppProject/main.cpp
-CMakeFiles/BCI.dir/main.cpp.o: CMakeFiles/BCI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mihai/Desktop/UPT/PAOO/CMake-OOP-CppProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BCI.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BCI.dir/main.cpp.o -MF CMakeFiles/BCI.dir/main.cpp.o.d -o CMakeFiles/BCI.dir/main.cpp.o -c /home/mihai/Desktop/UPT/PAOO/CMake-OOP-CppProject/main.cpp
+CMakeFiles/BCI.dir/src/main.cpp.o: CMakeFiles/BCI.dir/flags.make
+CMakeFiles/BCI.dir/src/main.cpp.o: /home/mihai/Desktop/UPT/PAOO/CMake-OOP-CppProject/src/main.cpp
+CMakeFiles/BCI.dir/src/main.cpp.o: CMakeFiles/BCI.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mihai/Desktop/UPT/PAOO/CMake-OOP-CppProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/BCI.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/BCI.dir/src/main.cpp.o -MF CMakeFiles/BCI.dir/src/main.cpp.o.d -o CMakeFiles/BCI.dir/src/main.cpp.o -c /home/mihai/Desktop/UPT/PAOO/CMake-OOP-CppProject/src/main.cpp
 
-CMakeFiles/BCI.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BCI.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mihai/Desktop/UPT/PAOO/CMake-OOP-CppProject/main.cpp > CMakeFiles/BCI.dir/main.cpp.i
+CMakeFiles/BCI.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/BCI.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mihai/Desktop/UPT/PAOO/CMake-OOP-CppProject/src/main.cpp > CMakeFiles/BCI.dir/src/main.cpp.i
 
-CMakeFiles/BCI.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BCI.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mihai/Desktop/UPT/PAOO/CMake-OOP-CppProject/main.cpp -o CMakeFiles/BCI.dir/main.cpp.s
+CMakeFiles/BCI.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/BCI.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mihai/Desktop/UPT/PAOO/CMake-OOP-CppProject/src/main.cpp -o CMakeFiles/BCI.dir/src/main.cpp.s
 
 # Object files for target BCI
 BCI_OBJECTS = \
-"CMakeFiles/BCI.dir/main.cpp.o"
+"CMakeFiles/BCI.dir/src/main.cpp.o"
 
 # External object files for target BCI
 BCI_EXTERNAL_OBJECTS =
 
-BCI: CMakeFiles/BCI.dir/main.cpp.o
+BCI: CMakeFiles/BCI.dir/src/main.cpp.o
 BCI: CMakeFiles/BCI.dir/build.make
 BCI: CMakeFiles/BCI.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/mihai/Desktop/UPT/PAOO/CMake-OOP-CppProject/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable BCI"
