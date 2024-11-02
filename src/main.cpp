@@ -11,6 +11,7 @@ int main() {
     Device device1("Unicorn Hybrid Black");
     Device device2("OpenBCI Ultracortex Mark IV");
     Device device3("Emotiv");
+    device1.start();
 
     bci.addDevice(device1);
     bci.addDevice(std::move(device2));

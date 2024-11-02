@@ -31,3 +31,8 @@ Device::Device(Device&& other) noexcept {
 std::string Device::getName() const {
     return *name;
 }
+
+// start device
+void Device::start() {
+    std::cout << "Starting device: " << *name << std::endl;
+}

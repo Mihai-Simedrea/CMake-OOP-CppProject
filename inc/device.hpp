@@ -11,7 +11,7 @@ class Device {
         Device(Device&& other) noexcept; // move ctor
         ~Device();
 
-        // void start(); // start the device
+        void start(); // start the device
         std::string getName() const; // get device name
 
     private:
